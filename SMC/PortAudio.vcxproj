@@ -1050,6 +1050,9 @@ copy ..\LICENSE.txt $(OutputPath)\licenses\portaudio.txt</Command>
     <None Include="portaudio.def" />
     <None Include="portaudioASIO.def" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
