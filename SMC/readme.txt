@@ -3,12 +3,19 @@ This is a small list of steps in order to build PortAudio into a msvc DLL and li
 Currently this project builds for 4 out of the 5 win32 APIs (DS/ASIO/WASAPI/WDMKS).
 
 The project contains Release and Debug builds for static lib files (Debug/Release)
-  as well as dynamic shared dll files (DebugDll/ReleaseDll).
+  as well as dynamic shared dll files (DebugDLL/ReleaseDLL).
 Choose whichever project configuration meets your requirements.
+
+
+*** Building without ASIO support ***
+
+To build PortAudio without ASIO support ensure that you use the Visual Studio project configurations that are not suffixed with 'ASIO'.
+These configurations will automatically build without ASIO support without any further input.
+
 
 *** Building with ASIO support ***
 
-By default the project configurations will build with ASIO support.
+To build PortAudio with ASIO support ensure that you use the Visual Studio project configurations that are suffixed with 'ASIO'.
 In order to build with ASIO support you need to download the ASIO SDK from:
 http://www.steinberg.net/en/company/developer.html
 
@@ -31,4 +38,4 @@ Once the ASIO SDK has been extracted then the project will build normally withou
 *** Building without ASIO support ***
 
 To build PortAudio without ASIO support ensure that you use the Visual Studio project configurations that are suffixed with 'NoASIO'.
-This configurations will automatically build without ASIO support without any further input.
+These configurations will automatically build without ASIO support without any further input.

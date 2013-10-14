@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PortAudio", "PortAudio.vcxproj", "{510176CE-6350-4576-9C45-FE9FBE3487E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		DebugASIO|Win32 = DebugASIO|Win32
+		DebugASIO|x64 = DebugASIO|x64
+		DebugDLL|Win32 = DebugDLL|Win32
+		DebugDLL|x64 = DebugDLL|x64
+		DebugDLLASIO|Win32 = DebugDLLASIO|Win32
+		DebugDLLASIO|x64 = DebugDLLASIO|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		ReleaseASIO|Win32 = ReleaseASIO|Win32
+		ReleaseASIO|x64 = ReleaseASIO|x64
+		ReleaseDLL|Win32 = ReleaseDLL|Win32
+		ReleaseDLL|x64 = ReleaseDLL|x64
+		ReleaseDLLASIO|Win32 = ReleaseDLLASIO|Win32
+		ReleaseDLLASIO|x64 = ReleaseDLLASIO|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.Debug|Win32.Build.0 = Debug|Win32
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.Debug|x64.ActiveCfg = Debug|x64
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.Debug|x64.Build.0 = Debug|x64
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.DebugASIO|Win32.ActiveCfg = DebugASIO|Win32
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.DebugASIO|Win32.Build.0 = DebugASIO|Win32
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.DebugASIO|x64.ActiveCfg = DebugASIO|x64
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.DebugASIO|x64.Build.0 = DebugASIO|x64
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.DebugDLL|Win32.ActiveCfg = DebugDLL|Win32
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.DebugDLL|Win32.Build.0 = DebugDLL|Win32
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.DebugDLL|x64.ActiveCfg = DebugDLL|x64
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.DebugDLL|x64.Build.0 = DebugDLL|x64
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.DebugDLLASIO|Win32.ActiveCfg = DebugDLLASIO|Win32
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.DebugDLLASIO|Win32.Build.0 = DebugDLLASIO|Win32
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.DebugDLLASIO|x64.ActiveCfg = DebugDLLASIO|x64
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.DebugDLLASIO|x64.Build.0 = DebugDLLASIO|x64
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.Release|Win32.ActiveCfg = Release|Win32
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.Release|Win32.Build.0 = Release|Win32
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.Release|x64.ActiveCfg = Release|x64
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.Release|x64.Build.0 = Release|x64
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.ReleaseASIO|Win32.ActiveCfg = ReleaseASIO|Win32
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.ReleaseASIO|Win32.Build.0 = ReleaseASIO|Win32
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.ReleaseASIO|x64.ActiveCfg = ReleaseASIO|x64
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.ReleaseASIO|x64.Build.0 = ReleaseASIO|x64
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.ReleaseDLL|Win32.ActiveCfg = ReleaseDLL|Win32
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.ReleaseDLL|Win32.Build.0 = ReleaseDLL|Win32
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.ReleaseDLL|x64.ActiveCfg = ReleaseDLL|x64
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.ReleaseDLL|x64.Build.0 = ReleaseDLL|x64
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.ReleaseDLLASIO|Win32.ActiveCfg = ReleaseDLLASIO|Win32
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.ReleaseDLLASIO|Win32.Build.0 = ReleaseDLLASIO|Win32
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.ReleaseDLLASIO|x64.ActiveCfg = ReleaseDLLASIO|x64
+		{510176CE-6350-4576-9C45-FE9FBE3487E7}.ReleaseDLLASIO|x64.Build.0 = ReleaseDLLASIO|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
