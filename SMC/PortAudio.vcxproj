@@ -316,6 +316,8 @@
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <AdditionalIncludeDirectories>..\src\common;..\include;.\;..\src\os\win</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PA_USE_ASIO=0;PA_USE_DS=1;PA_USE_WMME=0;PA_USE_WASAPI=1;PA_USE_WDMKS=1;PA_ENABLE_DEBUG_OUTPUT;PAWIN_USE_WDMKS_DEVICE_INFO;PA_WDMKS_NO_KSGUID_LIB;WIN32;_CRT_SECURE_NO_DEPRECATE;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -343,6 +345,7 @@ copy ..\LICENSE.txt $(OutputPath)\licenses\portaudio.txt</Command>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <AdditionalIncludeDirectories>..\src\common;..\include;.\;..\src\os\win</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PA_USE_ASIO=1;PA_USE_DS=1;PA_USE_WMME=0;PA_USE_WASAPI=1;PA_USE_WDMKS=1;PA_ENABLE_DEBUG_OUTPUT;PAWIN_USE_WDMKS_DEVICE_INFO;PA_WDMKS_NO_KSGUID_LIB;WIN32;_CRT_SECURE_NO_DEPRECATE;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -370,6 +373,8 @@ copy ..\LICENSE.txt $(OutputPath)\licenses\portaudio.txt</Command>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <AdditionalIncludeDirectories>..\src\common;..\include;.\;..\src\os\win</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PA_USE_ASIO=0;PA_USE_DS=1;PA_USE_WMME=0;PA_USE_WASAPI=1;PA_USE_WDMKS=1;PA_ENABLE_DEBUG_OUTPUT;PAWIN_USE_WDMKS_DEVICE_INFO;PA_WDMKS_NO_KSGUID_LIB;_WIN64;_CRT_SECURE_NO_DEPRECATE;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -397,6 +402,7 @@ copy ..\LICENSE.txt $(OutputPath)\licenses\portaudio.txt</Command>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <AdditionalIncludeDirectories>..\src\common;..\include;.\;..\src\os\win</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PA_USE_ASIO=1;PA_USE_DS=1;PA_USE_WMME=0;PA_USE_WASAPI=1;PA_USE_WDMKS=1;PA_ENABLE_DEBUG_OUTPUT;PAWIN_USE_WDMKS_DEVICE_INFO;PA_WDMKS_NO_KSGUID_LIB;_WIN64;_CRT_SECURE_NO_DEPRECATE;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -424,6 +430,8 @@ copy ..\LICENSE.txt $(OutputPath)\licenses\portaudio.txt</Command>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <AdditionalIncludeDirectories>..\src\common;..\include;.\;..\src\os\win</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PA_USE_ASIO=0;PA_USE_DS=1;PA_USE_WMME=0;PA_USE_WASAPI=1;PA_USE_WDMKS=1;PA_ENABLE_DEBUG_OUTPUT;PAWIN_USE_WDMKS_DEVICE_INFO;PA_WDMKS_NO_KSGUID_LIB;WIN32;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -451,6 +459,7 @@ copy ..\LICENSE.txt $(OutputPath)\licenses\portaudio.txt</Command>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <AdditionalIncludeDirectories>..\src\common;..\include;.\;..\src\os\win</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PA_USE_ASIO=1;PA_USE_DS=1;PA_USE_WMME=0;PA_USE_WASAPI=1;PA_USE_WDMKS=1;PA_ENABLE_DEBUG_OUTPUT;PAWIN_USE_WDMKS_DEVICE_INFO;PA_WDMKS_NO_KSGUID_LIB;WIN32;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -478,6 +487,8 @@ copy ..\LICENSE.txt $(OutputPath)\licenses\portaudio.txt</Command>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <AdditionalIncludeDirectories>..\src\common;..\include;.\;..\src\os\win</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PA_USE_ASIO=0;PA_USE_DS=1;PA_USE_WMME=0;PA_USE_WASAPI=1;PA_USE_WDMKS=1;PA_ENABLE_DEBUG_OUTPUT;PAWIN_USE_WDMKS_DEVICE_INFO;PA_WDMKS_NO_KSGUID_LIB;_WIN64;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -505,6 +516,7 @@ copy ..\LICENSE.txt $(OutputPath)\licenses\portaudio.txt</Command>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <AdditionalIncludeDirectories>..\src\common;..\include;.\;..\src\os\win</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PA_USE_ASIO=1;PA_USE_DS=1;PA_USE_WMME=0;PA_USE_WASAPI=1;PA_USE_WDMKS=1;PA_ENABLE_DEBUG_OUTPUT;PAWIN_USE_WDMKS_DEVICE_INFO;PA_WDMKS_NO_KSGUID_LIB;_WIN64;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -543,6 +555,7 @@ copy ..\LICENSE.txt $(OutputPath)\licenses\portaudio.txt</Command>
       <FloatingPointExceptions>false</FloatingPointExceptions>
       <AdditionalIncludeDirectories>..\src\common;..\include;.\;..\src\os\win</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PA_USE_ASIO=0;PA_USE_DS=1;PA_USE_WMME=0;PA_USE_WASAPI=1;PA_USE_WDMKS=1;PA_ENABLE_DEBUG_OUTPUT;PAWIN_USE_WDMKS_DEVICE_INFO;PA_WDMKS_NO_KSGUID_LIB;WIN32;_CRT_SECURE_NO_DEPRECATE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -583,6 +596,7 @@ copy ..\LICENSE.txt $(OutputPath)\licenses\portaudio.txt</Command>
       <FloatingPointExceptions>false</FloatingPointExceptions>
       <AdditionalIncludeDirectories>..\src\common;..\include;.\;..\src\os\win</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PA_USE_ASIO=1;PA_USE_DS=1;PA_USE_WMME=0;PA_USE_WASAPI=1;PA_USE_WDMKS=1;PA_ENABLE_DEBUG_OUTPUT;PAWIN_USE_WDMKS_DEVICE_INFO;PA_WDMKS_NO_KSGUID_LIB;WIN32;_CRT_SECURE_NO_DEPRECATE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -623,6 +637,7 @@ copy ..\LICENSE.txt $(OutputPath)\licenses\portaudio.txt</Command>
       <FloatingPointExceptions>false</FloatingPointExceptions>
       <AdditionalIncludeDirectories>..\src\common;..\include;.\;..\src\os\win</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PA_USE_ASIO=0;PA_USE_DS=1;PA_USE_WMME=0;PA_USE_WASAPI=1;PA_USE_WDMKS=1;PA_ENABLE_DEBUG_OUTPUT;PAWIN_USE_WDMKS_DEVICE_INFO;PA_WDMKS_NO_KSGUID_LIB;_WIN64;_CRT_SECURE_NO_DEPRECATE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -663,6 +678,7 @@ copy ..\LICENSE.txt $(OutputPath)\licenses\portaudio.txt</Command>
       <FloatingPointExceptions>false</FloatingPointExceptions>
       <AdditionalIncludeDirectories>..\src\common;..\include;.\;..\src\os\win</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PA_USE_ASIO=1;PA_USE_DS=1;PA_USE_WMME=0;PA_USE_WASAPI=1;PA_USE_WDMKS=1;PA_ENABLE_DEBUG_OUTPUT;PAWIN_USE_WDMKS_DEVICE_INFO;PA_WDMKS_NO_KSGUID_LIB;_WIN64;_CRT_SECURE_NO_DEPRECATE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -703,6 +719,7 @@ copy ..\LICENSE.txt $(OutputPath)\licenses\portaudio.txt</Command>
       <FloatingPointExceptions>false</FloatingPointExceptions>
       <AdditionalIncludeDirectories>..\src\common;..\include;.\;..\src\os\win</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PA_USE_ASIO=0;PA_USE_DS=1;PA_USE_WMME=0;PA_USE_WASAPI=1;PA_USE_WDMKS=1;PA_ENABLE_DEBUG_OUTPUT;PAWIN_USE_WDMKS_DEVICE_INFO;PA_WDMKS_NO_KSGUID_LIB;WIN32;_USRDLL;_CRT_SECURE_NO_DEPRECATE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -743,6 +760,7 @@ copy ..\LICENSE.txt $(OutputPath)\licenses\portaudio.txt</Command>
       <FloatingPointExceptions>false</FloatingPointExceptions>
       <AdditionalIncludeDirectories>..\src\common;..\include;.\;..\src\os\win</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PA_USE_ASIO=1;PA_USE_DS=1;PA_USE_WMME=0;PA_USE_WASAPI=1;PA_USE_WDMKS=1;PA_ENABLE_DEBUG_OUTPUT;PAWIN_USE_WDMKS_DEVICE_INFO;PA_WDMKS_NO_KSGUID_LIB;WIN32;_USRDLL;_CRT_SECURE_NO_DEPRECATE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -783,6 +801,7 @@ copy ..\LICENSE.txt $(OutputPath)\licenses\portaudio.txt</Command>
       <FloatingPointExceptions>false</FloatingPointExceptions>
       <AdditionalIncludeDirectories>..\src\common;..\include;.\;..\src\os\win</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PA_USE_ASIO=0;PA_USE_DS=1;PA_USE_WMME=0;PA_USE_WASAPI=1;PA_USE_WDMKS=1;PA_ENABLE_DEBUG_OUTPUT;PAWIN_USE_WDMKS_DEVICE_INFO;PA_WDMKS_NO_KSGUID_LIB;_WIN64;_USRDLL;_CRT_SECURE_NO_DEPRECATE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -823,6 +842,7 @@ copy ..\LICENSE.txt $(OutputPath)\licenses\portaudio.txt</Command>
       <FloatingPointExceptions>false</FloatingPointExceptions>
       <AdditionalIncludeDirectories>..\src\common;..\include;.\;..\src\os\win</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PA_USE_ASIO=1;PA_USE_DS=1;PA_USE_WMME=0;PA_USE_WASAPI=1;PA_USE_WDMKS=1;PA_ENABLE_DEBUG_OUTPUT;PAWIN_USE_WDMKS_DEVICE_INFO;PA_WDMKS_NO_KSGUID_LIB;_WIN64;_USRDLL;_CRT_SECURE_NO_DEPRECATE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
