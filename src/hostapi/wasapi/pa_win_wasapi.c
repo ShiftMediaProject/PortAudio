@@ -1887,6 +1887,44 @@ static PaError GetClosestFormat(IAudioClient *myClient, double sampleRate,
 				}
 			}
 		}
+#ifdef KSAUDIO_SPEAKER_5POINT1_SURROUND
+        else if (params.channelCount == 6)
+        {
+            // Try and use different channel mask
+            WAVEFORMATEXTENSIBLE spfmt = { 0 };
+
+            PaStreamParameters spfmt_params = params;
+            ( (PaWasapiStreamInfo *)spfmt_params.hostApiSpecificStreamInfo )->channelMask = KSAUDIO_SPEAKER_5POINT1;
+            ( (PaWasapiStreamInfo *)spfmt_params.hostApiSpecificStreamInfo )->flags |= paWinWasapiUseChannelMask;
+            MakeWaveFormatFromParams(&spfmt, &spfmt_params, sampleRate);
+            hr = IAudioClient_IsFormatSupported(myClient, shareMode, &spfmt.Format, (shareMode == AUDCLNT_SHAREMODE_SHARED ? &sharedClosestMatch : NULL));
+            if (hr == S_OK)
+            {
+                memcpy(outWavex, &spfmt, sizeof(WAVEFORMATEXTENSIBLE));
+                CoTaskMemFree(sharedClosestMatch);
+                return (answer = paFormatIsSupported);
+            }
+        }
+#endif
+#ifdef KSAUDIO_SPEAKER_7POINT1_SURROUND
+        else if (params.channelCount == 8)
+        {
+            // Try and use different channel mask
+            WAVEFORMATEXTENSIBLE spfmt = { 0 };
+
+            PaStreamParameters spfmt_params = params;
+            ( (PaWasapiStreamInfo *)spfmt_params.hostApiSpecificStreamInfo )->channelMask = KSAUDIO_SPEAKER_7POINT1;
+            ( (PaWasapiStreamInfo *)spfmt_params.hostApiSpecificStreamInfo )->flags |= paWinWasapiUseChannelMask;
+            MakeWaveFormatFromParams(&spfmt, &spfmt_params, sampleRate);
+            hr = IAudioClient_IsFormatSupported(myClient, shareMode, &spfmt.Format, (shareMode == AUDCLNT_SHAREMODE_SHARED ? &sharedClosestMatch : NULL));
+            if (hr == S_OK)
+            {
+                memcpy(outWavex, &spfmt, sizeof(WAVEFORMATEXTENSIBLE));
+                CoTaskMemFree(sharedClosestMatch);
+                return (answer = paFormatIsSupported);
+            }
+        }
+#endif
 
 		// Try selecting suitable sample type
 		for (i = 0; i < STATIC_ARRAY_SIZE(BestToWorst); ++i)
